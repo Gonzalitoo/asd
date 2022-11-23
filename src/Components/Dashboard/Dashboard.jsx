@@ -9,7 +9,6 @@ import slides from "../../assets/images/backoffice-logos/slides.jpg";
 import users from "../../assets/images/backoffice-logos/users.jpg";
 import members from "../../assets/images/backoffice-logos/members.jpg";
 
-
 export const Dashboard = () => {
   const features = [
     {
@@ -22,50 +21,50 @@ export const Dashboard = () => {
       id: 1,
       name: "Actividades",
       logo: activities,
-      link: "/backoffice/actividades",
+      link: "",
     },
     {
       id: 2,
       name: "Categorías",
       logo: categories,
-      link: "/backoffice/categorias",
+      link: "",
     },
     {
       id: 3,
       name: "Testimonios",
       logo: testimonials,
-      link: "/backoffice/testimonios",
+      link: "",
     },
     {
       id: 4,
       name: "Organización",
       logo: organization,
-      link: "/backoffice/organizacion",
+      link: "",
     },
     {
       id: 5,
       name: "Slides",
       logo: slides,
-      link: "/backoffice/slides",
+      link: "",
     },
     {
       id: 6,
       name: "Usuarios",
       logo: users,
-      link: "/backoffice/usuarios",
+      link: "",
     },
     {
       id: 7,
       name: "Miembros",
       logo: members,
-      link: "/backoffice/miembros",
+      link: "",
     },
   ];
   return (
     <div>
       <div className="row" style={{ height: "150px", alignItems: "center" }}>
         <div className="col text-center">
-          <h1>Bienvenido al Dashboard de Administrador</h1>
+          <h1 className="">Bienvenido al Dashboard de Administrador</h1>
         </div>
       </div>
       <div className="row justify-content-center">
