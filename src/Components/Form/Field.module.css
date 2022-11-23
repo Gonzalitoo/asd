@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+}
+
+.input {
+	padding: 15px 30px;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+}
+
+.error {
+	border-color: var(--color-primary);
+}
+
+.error:focus {
+	outline-color: var(--color-primary);
+}
+
+.errorContainer {
+	height: 20px;
+	margin-bottom: 10px;
+	color: var(--color-primary);
+}
+
+form .button{
+	margin: 1rem auto auto;
+	width: 80%;
+}
+
+textarea{
+	font-family: Poppins, sans-serif;
+}
+
+@media (min-width: 576px) {
+	.input {
+		padding: 15px 30px;
+	}
+	
+	.ck{
+		height: 150px;
+	}
+}
