@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-
-import { ListCard } from "../Card/ListCard/ListCard";
 import { getActivities } from "../../Services/activitiesService/activitiesService";
 import Title from "../Title/Title";
 
